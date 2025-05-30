@@ -1,15 +1,15 @@
 # Inventory Management CLI
 
-A simple command-line inventory management system built with Python, SQLAlchemy, and Click. This application allows you to manage product categories and inventory items through an easy-to-use CLI interface.
+A simple command-line inventory management system. This application allows you to manage product categories and inventory items through an easy-to-use CLI interface.
 
-## Features
+# Features
 
-- **Category Management**: Add and list product categories
-- **Database Integration**: SQLite database with SQLAlchemy ORM
-- **CLI Interface**: User-friendly command-line interface using Click
-- **Extensible Design**: Easy to add new commands and features
+- Category Management: Add and list product categories
+- Database Integration: SQLite database with SQLAlchemy ORM
+- CLI Interface: User-friendly command-line interface using Click
+- Extensible Design: Easy to add new commands and features
 
-## Project Structure
+# Project Structure
 
 ```
 inventory-cli/
@@ -20,7 +20,7 @@ inventory-cli/
 └── README.md        # This file
 ```
 
-## Installation
+# Installation
 
 1. Clone or download the project files
 
@@ -42,7 +42,7 @@ Run the application using Python:
 python main.py [COMMAND]
 ```
 
-# Available Commands
+
 
 # Initialize Database
 ```bash
@@ -80,19 +80,10 @@ python main.py list-categories
 
 # Technical Details
 
-- **Database**: SQLite with SQLAlchemy ORM
-- **CLI Framework**: Click for command-line interface
-- **Python Version**: Compatible with Python 3.6+
+- Database: SQLite with SQLAlchemy ORM
+- CLI Framework: Click for command-line interface
+- Python Version: Compatible with Python 3.6+
 
-
-
-# Development
-
-To extend the application:
-
-1. Add new commands in `cli.py` using the `@cli.command()` decorator
-2. Create additional models in `models.py` if needed
-3. Use the existing database session (`db`) for database operations
 
 # Requirements
 
